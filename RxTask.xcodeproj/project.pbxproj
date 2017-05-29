@@ -9,16 +9,13 @@
 /* Begin PBXBuildFile section */
 		271E72BE43C8EF6F54C6DC9C /* Pods_RxTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21328F87A1D28E2CE41F43B /* Pods_RxTask.framework */; };
 		2E6F8B301EDC5C5100B3BD0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F8B2F1EDC5C5100B3BD0D /* AppDelegate.swift */; };
-		2E6F8B321EDC5C5100B3BD0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F8B311EDC5C5100B3BD0D /* ViewController.swift */; };
 		2E6F8B351EDC5C5100B3BD0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F8B331EDC5C5100B3BD0D /* Main.storyboard */; };
 		2E6F8B371EDC5C5100B3BD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F8B361EDC5C5100B3BD0D /* Assets.xcassets */; };
 		2E6F8B3A1EDC5C5100B3BD0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F8B381EDC5C5100B3BD0D /* LaunchScreen.storyboard */; };
-		2E6F8B431EDC5C5A00B3BD0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F8B311EDC5C5100B3BD0D /* ViewController.swift */; };
 		2E6F8B441EDC5C5A00B3BD0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F8B2F1EDC5C5100B3BD0D /* AppDelegate.swift */; };
 		2E6F8B471EDC5C5A00B3BD0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F8B381EDC5C5100B3BD0D /* LaunchScreen.storyboard */; };
 		2E6F8B481EDC5C5A00B3BD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F8B361EDC5C5100B3BD0D /* Assets.xcassets */; };
 		2E6F8B491EDC5C5A00B3BD0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F8B331EDC5C5100B3BD0D /* Main.storyboard */; };
-		2E6F8B511EDC5C6400B3BD0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F8B311EDC5C5100B3BD0D /* ViewController.swift */; };
 		2E6F8B521EDC5C6400B3BD0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F8B2F1EDC5C5100B3BD0D /* AppDelegate.swift */; };
 		2E6F8B551EDC5C6400B3BD0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F8B381EDC5C5100B3BD0D /* LaunchScreen.storyboard */; };
 		2E6F8B561EDC5C6400B3BD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F8B361EDC5C5100B3BD0D /* Assets.xcassets */; };
@@ -35,7 +32,6 @@
 		253453FA6829AA5D09D6CBE1 /* Pods-RxTask2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTask2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxTask2/Pods-RxTask2.debug.xcconfig"; sourceTree = "<group>"; };
 		2E6F8B2C1EDC5C5100B3BD0D /* RxTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6F8B2F1EDC5C5100B3BD0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E6F8B311EDC5C5100B3BD0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E6F8B341EDC5C5100B3BD0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E6F8B361EDC5C5100B3BD0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E6F8B391EDC5C5100B3BD0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				2E6F8B2F1EDC5C5100B3BD0D /* AppDelegate.swift */,
-				2E6F8B311EDC5C5100B3BD0D /* ViewController.swift */,
 				2E6F8B5D1EDC624300B3BD0D /* Task1ViewController.swift */,
 				2E6F8B611EDC68B600B3BD0D /* Task2ViewController.swift */,
 				2E6F8B651EDC6B5B00B3BD0D /* Task3ViewController.swift */,
@@ -428,7 +423,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E6F8B5E1EDC624300B3BD0D /* Task1ViewController.swift in Sources */,
-				2E6F8B321EDC5C5100B3BD0D /* ViewController.swift in Sources */,
 				2E6F8B301EDC5C5100B3BD0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,7 +432,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E6F8B631EDC6A4B00B3BD0D /* Task2ViewController.swift in Sources */,
-				2E6F8B431EDC5C5A00B3BD0D /* ViewController.swift in Sources */,
 				2E6F8B441EDC5C5A00B3BD0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,7 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E6F8B511EDC5C6400B3BD0D /* ViewController.swift in Sources */,
 				2E6F8B671EDC6B7600B3BD0D /* Task3ViewController.swift in Sources */,
 				2E6F8B521EDC5C6400B3BD0D /* AppDelegate.swift in Sources */,
 			);
